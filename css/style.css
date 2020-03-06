@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,800&display=swap");
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+	font-style: bold;
+	font-weight: 800;
+}
+
+body,p{
+
+	margin: 0;
+	font-family: Montserrat;
+}
+
+h1{
+    font-size: 43px;
+}
+
+
+input{
+	font-family: Montserrat;
+}
+.bold{
+    font-weight: bold;
+}
+
+.light-bold{
+	font-weight: 300;
+}
+
+/* Add Product page form */
+.form{
+	display: grid;
+	grid-template-columns: 30% 40% 30%; 
+	
+}
+
+.add-product-form, .register-form, .login-form{
+	margin-top: 15%;
+	border: 1px #7b8379 solid;
+	padding-left: 20px;
+	padding: 30px 30px 30px 30px;
+	background-color: #ffffff;
+		-moz-box-shadow: 5px 2px 8px 0px #7b8379;
+	-webkit-box-shadow: 5px 2px 8px 0px #839280;
+	box-shadow: 5px 2px 8px 0px grey;
+
+}
+
+#submit{
+		-moz-box-shadow: 5px 2px 8px 0px #7b8379;
+	-webkit-box-shadow: 5px 2px 8px 0px #839280;
+	box-shadow: 5px 2px 8px 0px grey;
+
+	background-color:#526357;
+	border:1px solid #5f7261;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:18px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    padding-bottom: 32px;
+
+}
+
+#submit:hover{
+    background-color:#5cbf2a;
+}
+
+.error{
+	color: red;
+}
+
+.add-product-form input,.register-form input, .login-form input{
+	height:30px;
+	min-width: 200px;
+
+}
+
+
+/* Index Page  */
+.header{	
+	background-color: rgb(38, 197, 38);
+	color: white;
+}
+
+.icon-section{
+	display: grid;
+	grid-template-columns: auto;	
+	color:black;
+
+}
+
+.header-icon{
+	padding-top: 40px;
+}
+
+
+.header-text{
+	text-align: center;
+	color: #228B22;
+}
+
+.navbar{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	background-color:#ffffff;
+}
+
+
+.navbar a{
+	color: #228B22;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+
+.navbar a:hover{
+	color: #454744;
+}
+
+.main{
+	margin-top: 10px;
+	
+	display: grid;
+	grid-template-columns: 18% 80%;
+	grid-column-gap: 30px;
+}
+
+.side-bar{
+	margin-top: 10px;
+	min-height: 200px;
+	
+}
+.brands, .categories{
+	padding-left: 10px;
+}
+.brands a,.categories a{
+	color: black;
+}
+
+.brands a:hover, .categories a:hover{
+	color: #228B22;
+	font-weight: 800;
+
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 20px;
+	
+}
+
+.item-card{
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	color: black;
+}
+
+.item-card:hover{
+	border: 1px solid #228B22;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.black-text{
+	color:black !important;
+}
+.item-card a{
+	color: black;
+}
+
+.view-button:hover{
+	color: #228B22;
+	font-weight: 800;
+
+}
+
+.breadcrumbs{
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+}
+
+.breadcrumbs div a{
+	font-weight: 800;
+	font-size: 20px;
+	
+}
+
+.breadcrumbs-cart{
+	color:black;
+}
+.breadcrumbs-cart:hover{
+	color: #228B22;
+
+}
+.breadcrumbs div a:hover{
+	color: #228B22;
+}
+
+
+
+#search-button{
+	max-width: 10px;	
+}
+
+.navbar .selected{
+  text-decoration: underline;
+}
+
+.cart-middle-part{
+	margin-top: 5px;
+	display: grid;
+	grid-template-columns: 30% 70% 30%;
+}
+
+form .shopping-cart-form{
+	max-width: 70px;
+	min-width: 70px;
+	margin-left: 10px;
+}
+
+form .shopping-cart-value{
+	max-width: 30px;
+	min-width: 30px;
+
+}
+
+.tg-0lax{
+	padding-left: 10px; 
+	margin-left: 10px;
+}
+
